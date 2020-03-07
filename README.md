@@ -6,4 +6,4 @@
 
 <img src="https://kelsonteixeira.github.io/snake-game/snake.png" width="600" >
 
-link: <a href="https://kelsonteixeira.github.io/snake-game/" target="_blank">https://kelsonteixeira.github.io/snake-game/</a>
+link: <a href="https://kelsonteixeira.github.io/snake-game/" target="_blank" >https://kelsonteixeira.github.io/snake-game/</a>
