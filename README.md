@@ -4,6 +4,6 @@
 
 <p>This game is responsive, on mobile, it display buttons that replace the keyboard arrows keys</p>
 
-<img src="" >
+<img src="https://kelsonteixeira.github.io/snake-game/snake.png" width="600" >
 
 link: <a href="https://kelsonteixeira.github.io/snake-game/" target="_blank">https://kelsonteixeira.github.io/snake-game/</a>
