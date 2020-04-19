@@ -82,18 +82,12 @@ class createSnake {
       this.velY = y;
     }
     if(!this.gameBack.lose){
-
-      if((theKeyCode == 37 || theKeyCode == 65) && this.permision){//left
-        setXY(-this.vel, 0);
+      // Keys: 37 left arrow | 38 up-arrow | 39 right-arrow| 40 down-arrow //
+      if((theKeyCode == 37 || theKeyCode == 39) && this.permision){//left and right
+        setXY((theKeyCode - 38) * this.vel, 0);
         this.permision = !this.permision;
-      }else if((theKeyCode == 38 || theKeyCode == 87) && !this.permision){//up
-        setXY(0, -this.vel);
-        this.permision = !this.permision;
-      }else if((theKeyCode == 39 || theKeyCode == 68) && this.permision){//right
-        setXY(this.vel, 0);
-        this.permision = !this.permision;
-      }else if((theKeyCode == 40 || theKeyCode == 83) && !this.permision){//down
-        setXY(0, this.vel);
+      }else if((theKeyCode == 38 || theKeyCode == 40) && !this.permision){//up and down
+        setXY(0, (theKeyCode - 39) * this.vel);
         this.permision = !this.permision;
       }else{
         //none
