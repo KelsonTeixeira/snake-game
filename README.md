@@ -1,9 +1,9 @@
-<h1>Snake Game</h1>
+# Snake Game
 
-<p> Based on the old snake game, this game was build with the goal to practice OOP.</p>
+Based on the old snake game, this game was build with the goal to practice Object Oriented Programming.
 
-<p>This game is responsive, on mobile, it display buttons that replace the keyboard arrows keys</p>
+This game is responsive, on mobile displays buttons that replace the keyboard arrows keys
 
-<img src="https://kelsonteixeira.github.io/snake-game/snake.png" width="600" >
+![print of the game](https://kelsonteixeira.github.io/snake-game/snake.png)
 
-link: <a href="https://kelsonteixeira.github.io/snake-game/" target="_blank" >https://kelsonteixeira.github.io/snake-game/</a>
+To access the game, [Click Here](https://kelsonteixeira.github.io/snake-game/)
